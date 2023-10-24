@@ -163,13 +163,23 @@ main {
   margin-bottom: 20px;
 }
 
-.home{
-  background: var(--black-color);
+
+.home-container{
+  background: black;
 }
 
 .home-data {
   height: 500px;
   margin-top: 140px;
+}
+
+.home--intro {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--silver-color);
+  text-align: left;
+  display: flex;
+  padding: 0 20px;
 }
 
 .home-title {
@@ -178,7 +188,7 @@ main {
   color: var(--white-color);
   text-align: left;
   display: flex;
-  margin-top: 50px;
+  margin-top: 15px;
   padding: 0 20px;
 }
 
@@ -776,7 +786,8 @@ main {
 
   /*========================================================= Home  =============================================*/
   .home-container{
-    background: black;
+    background: black url("img/home-background.png") no-repeat center center fixed;
+    background-size: 100%;
   }
   .home {
     display: flex;
@@ -785,8 +796,9 @@ main {
     padding: 0;
     margin-left: 220px;
     margin-right: 220px;
-    background: black;
+
   }
+
 
   .home-image {
     background-size: 100%;
@@ -802,7 +814,7 @@ main {
   .Objetivo {
     display: flex;
     flex-direction: row-reverse;
-    padding: 0;
+    padding-top: 100px;
   }
 
   .Objetivo-data {
